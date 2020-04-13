@@ -49,7 +49,10 @@ footer {
 .button-list {
 	margin-top: 20px;
 }
+.button-home a {
+    color : #000 !important;
 
+}
 
 .nav {
     

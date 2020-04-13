@@ -20,8 +20,9 @@ export class Home extends Component {
               <div className="card" style={{width: '18rem'}}>
               <img src="https://cdn.pixabay.com/photo/2017/08/18/00/22/address-book-2653370_960_720.png" className="card-img-top" alt="Class Base" width="250px" height="250px" />
                 <div className="card-body">
-                  <h5 className="card-title">Function Base</h5>
-                  <Button> <Link to="/function">Chose</Link></Button>
+                <h5 className="card-title">Function Base</h5>
+                <Link to="/function">
+                <Button className="mr-2" variant="primary">Chose</Button></Link>
                 </div>
               </div>
             </div>
@@ -31,7 +32,9 @@ export class Home extends Component {
                 <img src="https://cdn.pixabay.com/photo/2017/08/18/00/22/address-book-2653370_960_720.png" className="card-img-top" alt="Function Base" width="250px" height="250px" />
                 <div className="card-body">
                   <h5 className="card-title">Class Base</h5>
-                  <Button Link to="/classbase">Chose</Button> 
+                  <Link to="/classbase">
+                <Button className="mr-2" variant="primary">Chose</Button></Link>
+
                 </div>
               </div>
             </div>
