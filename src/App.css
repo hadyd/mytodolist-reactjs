@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.jumbroton {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #8e44ad;
+    text-align: center;
+	color: white;
+    font-family: 'Quicksand',sans-serif;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    float: center;
+    width: 70%;
+    display: block;
+	margin: auto;
+	font-family: 'Quicksand',sans-serif;
+}
+
+.card {
+    box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #8e44ad;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Quicksand',sans-serif;
+  }
+  
+.card-todo {
+    box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
+    border-radius: 15px;
+	padding: 20px;
+	width: 50%;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	justify-content: center;
+	font-family: 'Quicksand',sans-serif;
+}
+
+.button-list {
+	margin-top: 20px;
+}
+
+
+.nav {
+    
+    list-style: none;
+    display: inline;
+    padding :20px;
+}
+.navs .nav{
+    display: inline-block;
+    float: none;
+}
+nav a {
+    text-decoration: none !important;
+    color : #000 !important;
+	font-family: 'Quicksand',sans-serif;
+}
+.nav a:hover {
+	font-weight: bold;
+	color : #8e44ad !important;
+}
