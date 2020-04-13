@@ -22,7 +22,7 @@ export class Home extends Component {
                 <div className="card-body">
                 <h5 className="card-title">Function Base</h5>
                 <Link to="/function">
-                <Button className="mr-2" variant="primary">Chose</Button></Link>
+                <Button className="mr-2" variant="warning">Chose</Button></Link>
                 </div>
               </div>
             </div>
