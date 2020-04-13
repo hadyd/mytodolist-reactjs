@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import{Form, Button} from "react-bootstrap"
 import "../App.css";
 

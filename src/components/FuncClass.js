@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import {Form,Button} from "react-bootstrap";
 import Todo from "./Todo";
 
