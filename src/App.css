@@ -11,18 +11,24 @@
 
 main {
     padding: 20px;
-    overflow: auto;
     float: center;
-    width: 70%;
+    width: 80%;
     display: block;
 	margin: auto;
-	font-family: 'Quicksand',sans-serif;
+    font-family: 'Quicksand',sans-serif;
+    width: max-content;
 }
 
 .card {
     box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
     border-radius: 15px;
     padding: 20px;
+    text-align: center;
+
+}
+
+.card img {
+    width: 280px;
 }
 
 footer {
